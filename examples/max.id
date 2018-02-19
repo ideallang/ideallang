@@ -1,0 +1,10 @@
+def max(a, b):
+    tests:
+        # The left operand is larger
+        (2, 1) -> 2
+        # Equal operands
+        (3, 3) -> 3:
+        # Right operand is larger
+        (1, 4) -> 4:
+    return a if a > b else b
+
